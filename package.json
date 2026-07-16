@@ -10,6 +10,10 @@
   },
   "dependencies": {
     "@base-ui/react": "^1.6.0",
+<<<<<<< HEAD
+    "@clerk/nextjs": "^7.5.18",
+=======
+>>>>>>> c48641e9d6c8187ac2b054bf4000104ec73355b8
     "@prisma/adapter-pg": "^7.8.0",
     "@prisma/client": "^7.8.0",
     "@shadcn/react": "^0.2.1",
