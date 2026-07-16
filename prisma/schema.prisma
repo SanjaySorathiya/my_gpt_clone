@@ -12,28 +12,8 @@ datasource db {
   provider = "postgresql"
 }
 
-<<<<<<< HEAD
-// model Test {
-//   id  String @id
-//   title String
-//   desc String
-// }
-
-model User {
-  id        String   @id @default(uuid())
-  clerkId   String   @unique
-  email     String?  @unique
-  firstName String?
-  lastName  String?
-  imageUrl  String?
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-
-  // conversations Conversation[]
-=======
 model Test {
   id  String @id
   title String
   desc String
->>>>>>> c48641e9d6c8187ac2b054bf4000104ec73355b8
 }
