@@ -12,7 +12,6 @@ datasource db {
   provider = "postgresql"
 }
 
-<<<<<<< HEAD
 // model Test {
 //   id  String @id
 //   title String
@@ -30,10 +29,4 @@ model User {
   updatedAt DateTime @updatedAt
 
   // conversations Conversation[]
-=======
-model Test {
-  id  String @id
-  title String
-  desc String
->>>>>>> c48641e9d6c8187ac2b054bf4000104ec73355b8
 }

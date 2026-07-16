@@ -37,8 +37,4 @@ export function ModeToggle() {
       </DropdownMenuContent>
     </DropdownMenu>
   )
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> c48641e9d6c8187ac2b054bf4000104ec73355b8
